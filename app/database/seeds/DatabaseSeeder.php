@@ -8,7 +8,6 @@ class DatabaseSeeder extends Seeder {
 	 */
 	public function run()
 	{
-		/*
 		print 'Running the MTG Seeder\n';
 		Eloquent::unguard();
 		$jsonFile = public_path().'\AllSetsArray.json';
@@ -57,11 +56,11 @@ class DatabaseSeeder extends Seeder {
 					}
 				}
 			}
-		}*/
-
+		}
+		
 		DB::table('users')->insert(array(
 				'username' => 'alex',
-				'password' => Hash::make('d3ckb0x!')
+				'password' => Hash::make('#REMOVED#')
 			));
 	}
 }
